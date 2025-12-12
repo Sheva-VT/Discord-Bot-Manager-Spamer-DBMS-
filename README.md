@@ -41,22 +41,16 @@ Pastikan centang: Add Python to PATH
 ### 2️⃣ Install Dependencies
 Buka terminal di folder project:
 
-```sh
+
 pip install -r requirements.txt
 
 ▶️ Cara Menjalankan
 Jalankan GUI:
 python gui.py
 
-
 Gunakan GUI untuk:
-
 mengatur akun
-
 mengatur channel
-
 menambah world
-
 memilih akun yang mau dijalankan
-
 RUN / STOP bot
