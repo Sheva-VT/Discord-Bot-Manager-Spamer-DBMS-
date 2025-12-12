@@ -1,18 +1,39 @@
+# 🚀 Discord Bot Manager (GUI)
+
+Aplikasi GUI sederhana untuk mengelola **multi akun Discord**, **multi channel**, delay random, serta sistem **world randomizer** — tanpa coding. Dibangun dengan Python + CustomTkinter.
 
 ---
 
-# 📡 Webhook Monitoring Example
-Bot sends structured embeds on:
+## ✨ Fitur Utama
 
-- START  
-- ERROR  
-- FINISH  
+### 🔐 Manajemen Akun
+- Tambah / edit / hapus akun  
+- Token & webhook per akun  
+- Checklist untuk memilih akun saat RUN  
 
-Example:
+### 📡 Manajemen Channel
+- Banyak channel per akun  
+- Delay min–max  
+- Counter pesan  
+- Channel aktif / nonaktif  
 
-```json
-{
-  "title": "🚀 Bot Dimulai",
-  "description": "Bot sudah mulai bekerja.",
-  "color": 3066993
-}
+### 🌍 World Randomizer
+- Tambah world sebanyak mungkin  
+- Checkbox active / inactive  
+- Gunakan di pesan melalui `{world}`  
+- Random otomatis setiap pengiriman  
+
+### 📣 Webhook Notifier
+- Start bot  
+- Error per akun/channel  
+- Finish laporan total pesan  
+
+### ▶️ Kontrol Bot
+- RUN bot dari GUI  
+- STOP kapan saja  
+- Status RUN tersimpan ke `config.json`  
+
+---
+
+## 📁 Struktur Project
+
